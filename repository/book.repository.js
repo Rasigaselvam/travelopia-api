@@ -23,6 +23,18 @@ class BookRepository {
         }
         return data;
     }
+
+    async getBooking() {
+        
+        try {
+            const tasks = await this.db.booking.findAll();
+            console.log('tasks:::', tasks);
+            return tasks;
+        } catch (err) {
+            console.log(err);
+            return [];
+        }
+    }
 }
 
 module.exports = new BookRepository();

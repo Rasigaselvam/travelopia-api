@@ -3,8 +3,10 @@ const BookingService  = require('../service/booking.service');
 class BookingController {
 
     async createBooking(task) {
-        console.log("enter the task", task)
         return await BookingService.createBooking(task);
+    }
+    async getBooking() {
+        return await BookingService.getBooking();
     }
 }
 module.exports = new BookingController();

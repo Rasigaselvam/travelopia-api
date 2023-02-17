@@ -8,6 +8,10 @@ class BookingService {
         return await bookRepository.createBooking(info);
     }
 
+    async getBooking() {
+        return await bookRepository.getBooking();
+    }
+
 }
 
 module.exports = new BookingService();

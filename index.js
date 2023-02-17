@@ -14,16 +14,14 @@ app.use(express.json());
  
 app.use(cors())
 
+app.get('/api/booking', (req, res) => {
+    bookingController.getBooking().then(data => res.json(data));
+});
+
 app.post('/api/booking', (req, res) => {
     bookingController.createBooking(req.body.booking).then(
         data => res.json(data));
 });
-
-
-app.get('/', (req, res) => {
-    res.send(`<h1>API Works !!!</h1>`)
-});
-
 
 
 app.listen(port, () => {
