@@ -1,6 +1,7 @@
 # nodejs-restapi-postgresql
 Example project on how to build NodeJS RESTFul API with PostgreSQL as a database
-
+In this project I have used postgreSQL for database attaching the postgrest download link
+### https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
 
 In the project directory, you can run:
 # node index.js
