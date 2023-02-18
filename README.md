@@ -4,8 +4,8 @@ In this project I have used postgreSQL for database attaching the postgrest down
 ### https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
 
 In the project directory, you can run:
-#npm install
-#node index.js
+# npm install
+# node index.js
 Runs the app in the development mode.\
 Open [http://localhost:5000](http://localhost:5000) to view it in your browser.
 
