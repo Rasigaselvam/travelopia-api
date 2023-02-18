@@ -11,7 +11,11 @@ Open [http://localhost:5000](http://localhost:5000) to view it in your browser.
 In the project directory , add .env file for postgresql information
 ### env
 HOST=localhost
+
 USER=YOUR USER
+
 PASSWORD=Your PASSWORD
+
 DB=postgres
+
 DIALECT=postgres
